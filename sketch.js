@@ -70,7 +70,7 @@ function setup() {
   
      
   trex.setCollider("circle",0,0,40);
-  trex.debug = true
+  
   
   pontuacao = 0;
   
@@ -80,7 +80,7 @@ function setup() {
 
 function draw() {
   
-  background("blue");
+  background(180);
   //exibindo pontuação
   text("Pontuação: "+ pontuacao, 500,50);
 
