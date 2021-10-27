@@ -80,7 +80,7 @@ function setup() {
 
 function draw() {
   
-  background(180);
+  background("white");
   //exibindo pontuação
   text("Pontuação: "+ pontuacao, 500,50);
 
